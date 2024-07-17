@@ -1,0 +1,84 @@
+
+
+#menu{
+    background: linear-gradient(rgb(114, 18, 114), rgb(62, 7, 62));
+    width: 100%;
+    height: 150px;
+    transition: height 0.5s;
+}
+
+.logo{
+    width: 100px;
+    position: relative;
+    left: 50px;
+    top: 21px;
+    
+
+}
+
+.more{
+    cursor: pointer;
+    width: 100px;
+    position: relative;
+    left: 1260px;
+    top: 21px;
+    border: 10px none transparent;
+    border-radius: 40%; 
+    transition: all 0.5s;
+   
+}
+
+.more:hover{
+    background: white;
+    border-radius: 30%;
+    border: 10px solid rgb(109, 4, 109);
+    transform: scale(1.1);
+    
+}
+
+
+
+#menu-links {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: left;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#menu-links a {
+    color: white;
+    text-decoration: none;
+    margin: -2px 0;
+    display: inline-block;
+    transition: color 0.5s;
+}
+
+#menu-links span:hover {
+    color: yellow;
+}
+
+#menu-links a:hover {
+    color: yellow;
+}
+
+
+.hidden {
+    display: none;
+    transition: all 0.5s;
+}
+
+#title{
+    
+    text-align: center;
+}
+
+.menuSpan{
+    position: relative;
+    top: 10px;
+}
